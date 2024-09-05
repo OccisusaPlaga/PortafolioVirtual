@@ -11,7 +11,7 @@ body{
 }
 
 header, footer {
-    background-color: #353232;
+    background-color: #332d22;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -22,6 +22,7 @@ main {
     justify-content: space-between;
     flex-grow: 1;
     padding: 5%;
+    background-color: rgb(201, 183, 160);
 }
 
 .container {
@@ -39,23 +40,42 @@ main {
 }
 
 .sidebar .caja1{
-    background-color: aqua;
+    background-color: rgb(32, 82, 97);
     padding: 20px;
-    flex: 1;
     margin-bottom: 20px;
     justify-content: center;
+    color: white;
+    text-align: center;
 
 }
 
 .sidebar .caja-cajon {
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
-.sidebar .caja-cajon .caja {
-    border: #f81eed solid 2px;
+.sidebar .caja-cajon .logros .presentacion{
+    border: black solid 2px;
     padding: 20px;
     width: 50%;
-    margin: 0px 20px 0px 20px;
-    background-color: aqua;
+    
+}
+
+.logros {
+    background-color: rgb(32, 82, 97);
+    border: black solid 2px;
+    padding: 20px;
+    width: 50%;
+    margin: 0px 20px 0px  0px;
+    color: white;
+}
+
+.presentacion {
+    background-color: rgb(32, 82, 97);
+    border: black solid 2px;
+    padding: 20px;
+    width: 50%;
+    margin: 0px 0px 0px 20px;
+    color: white;
 }
